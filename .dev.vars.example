@@ -1,0 +1,9 @@
+# Copy to .dev.vars for local `npm run dev`. Never commit real values.
+# Non-secret App ID from the Realtime dashboard. Overrides the placeholder in wrangler.jsonc during local dev.
+CALLS_APP_ID=
+# Cloudflare Realtime SFU app token. Production uses `wrangler secret put CALLS_APP_SECRET`.
+CALLS_APP_SECRET=
+# Optional but strongly recommended for restrictive mobile/corporate networks.
+# Store both as Worker secrets in production.
+TURN_KEY_ID=
+TURN_KEY_API_TOKEN=
