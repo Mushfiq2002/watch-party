@@ -6,6 +6,8 @@ No accounts. Create a room, send `/r/AB3K9`, and watch together. Two people maxi
 
 ![Lobby](docs/lobby.png)
 
+![File check before starting a room](docs/file-check.png)
+
 ![Room with chat connected, before a movie is chosen](docs/room.png)
 
 The room screenshot was taken with no movie loaded. Chat is connected. The media line stays in that state until `CALLS_APP_SECRET` is set.
